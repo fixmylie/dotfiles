@@ -1,4 +1,4 @@
-local userPlugins = require "custom.plugins" 
+local plugins = require "custom.plugins" 
 
 local M = {}
 
@@ -6,9 +6,7 @@ M.ui = {
   theme = "catppuccin",
 }
 
-M.plugins = {
-  user = userPlugins,
-} 
+M.plugins = plugins
 
 M.mappings = require "custom.mappings"
 
